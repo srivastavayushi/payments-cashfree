@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="max-h-screen lg:overflow-hidden flex">
+    <div className="max-h-screen lg:overflow-hidden flex font-customFont">
       <Sidebar />
       <main className="shrink-0 grow max-h-screen overflow-scroll">
         <Header />
